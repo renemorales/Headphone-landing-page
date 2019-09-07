@@ -2,10 +2,11 @@ header{
 	padding: 20px 20px;
 	font-size: 14px;
 	font-weight: 600;
+	margin-bottom: 50px;
 }
 
 header a{
-	color: #F20505;
+	color: #4945BF;
 	text-decoration: none;
 }
 /* whenever use float thi need to be use in the parent element*/
@@ -46,29 +47,22 @@ header .header-buttons{
 	text-transform: uppercase;
 }
 
-header .header-buttons .red-btn{
-	background-color: #F20505;
+header .header-buttons .blue-btn{
+	background-color: #6066f2;
 	padding: 10px 40px;
 	color: white;
 	border-radius: 35px
 
 }
 
-header .header-buttons .red-btn .fas{
+header .header-buttons .blue-btn .fas{
 	margin-left: 15px;
 }
 
-header .header-buttons .dark-btn{
+header .header-buttons .orange-btn{
 	background-color: #F27979;
 	padding: 10px 40px;
 	color: white;
-	border-radius: 35px
+	border-radius: 50px
 
-}
-
-header .header-buttons .red-btn,
-header .header-buttons .dark-btn{
-	-webkit-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.2);
-	-moz-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.2);
-	box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.2);
 }
