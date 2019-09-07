@@ -1,0 +1,74 @@
+header{
+	padding: 20px 20px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+header a{
+	color: #F20505;
+	text-decoration: none;
+}
+/* whenever use float thi need to be use in the parent element*/
+header:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+header .logo, header .menu{
+	display: inline-block;
+	float: left;
+
+}
+
+header .logo{
+	margin-right: 28px;
+}
+
+header .logo img{
+	width: 100px
+}
+
+header .menu{
+	position: relative;
+	top:35px;
+}
+
+header .menu a{
+	text-transform: uppercase;
+}
+
+header .header-buttons{
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: 28px;
+	text-transform: uppercase;
+}
+
+header .header-buttons .red-btn{
+	background-color: #F20505;
+	padding: 10px 40px;
+	color: white;
+	border-radius: 35px
+
+}
+
+header .header-buttons .red-btn .fas{
+	margin-left: 15px;
+}
+
+header .header-buttons .dark-btn{
+	background-color: #F27979;
+	padding: 10px 40px;
+	color: white;
+	border-radius: 35px
+
+}
+
+header .header-buttons .red-btn,
+header .header-buttons .dark-btn{
+	-webkit-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.2);
+	box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.2);
+}
