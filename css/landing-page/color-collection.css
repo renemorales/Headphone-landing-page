@@ -1,0 +1,11 @@
+#color-collection{
+}
+#color-collection .container .left-side img{
+	-webkit-transform: scaleX(-1); /* WebKit */
+	-moz-transform: scaleX(-1); /* Mozilla */
+	-o-transform: scaleX(-1); /* Opera */
+	-ms-transform: scaleX(-1); /* Internet Explorer */
+	transform: scaleX(-1); /* CSS3 */
+	width: 90%;
+}
+#color-collection{}
