@@ -70,7 +70,7 @@
 	border: none;
 	padding: 10px;
 	font-size: 1em;
-	width: 140px;
+	width: 191px;
 }
 
 #top-jumbo .left-side .info-container .email-area button{
@@ -80,12 +80,14 @@
 	font-size: 1rem;
 	text-transform: uppercase;
 	border-radius: 50px;
+	cursor: pointer;
 }
 
 #top-jumbo .right-side{
 	display: inline-block;
 	width: 65%;
 	float: left;
+	padding: 0 40px;
 }
 
 #top-jumbo .right-side img{

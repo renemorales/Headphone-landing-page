@@ -8,6 +8,8 @@ header{
 header a{
 	color: #4945BF;
 	text-decoration: none;
+	margin-right: 40px;
+	cursor: pointer;
 }
 /* whenever use float thi need to be use in the parent element*/
 header:after{
