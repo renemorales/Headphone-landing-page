@@ -5,6 +5,9 @@
 @import url('landing-page/design-by.css');
 @import url('landing-page/color-collection.css');
 @import url('landing-page/blue-print.css');
+@import url('landing-page/latest.css');
+@import url('landing-page/footer.css');
+
 
 
 .container{
@@ -28,4 +31,8 @@
 	-webkit-box-shadow: 0px 0px 65px 13px rgba(158,158,158,0.3);
 	-moz-box-shadow: 0px 0px 65px 13px rgba(158,158,158,0.3);
 	box-shadow: 0px 0px 65px 13px rgba(158,158,158,0.3);
+}
+
+input::placeholder{
+	color: #d5e2ea;
 }

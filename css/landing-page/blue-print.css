@@ -12,7 +12,7 @@
 
 }
 
-#blue-print .container{
+#blue-print .container:after{
 	content: "";
 	display: table;
 	clear: both;
